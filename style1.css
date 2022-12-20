@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.test{
+    padding:300px;
+    font-size:45px;
+    color:rgb(11, 11, 73);
+}
+@media only screen and ( max-width :600px)and (min-width:480px) {
+    h2 {
+        color:red;
+        font-style:italic;
+    }
+        
+}
+@media only screen and ( max-width :480px)  {
+    h2 {
+        color:rgb(1, 95, 14);
+        background: aquamarine;
+        padding:0;
+    }
+}
